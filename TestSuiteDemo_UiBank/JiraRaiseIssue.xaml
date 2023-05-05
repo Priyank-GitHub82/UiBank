@@ -87,6 +87,9 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="608,779.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -103,7 +106,7 @@
         <OutArgument x:TypeArguments="ss:SecureString">[TokenSecureString]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="ss:SecureString">[new system.net.NetworkCredential("", "ATATT3xFfGF0vHdfQAqLYyqfCFLlSEUpBwaPYyIL1kd1kD-IkI55VwY2xR1iAiwAOw0-MJvhgKPVTquR86xrOAUeIeQmgTNklNSmkH54I59BMmmDZpDvNjuwudVRRtArYYGRQCp7VyMOBzzzOHf-waX2Gki39oAYZ8F4K8ZHWlSGRejA911buvA=2D7ACECD").SecurePassword]</InArgument>
+        <InArgument x:TypeArguments="ss:SecureString">[new system.net.NetworkCredential("", "ATATT3xFfGF0NepBxIzhpfeN2YHZQedLUBYR4iMQIgMxpB7Hgnf_sykpmReTpeqdruHMyjV8ccIC3rTw1BzDersLoMK7GE7H9Y9tVOdB-KRhwaU12Lfy0X3Esb-I3yUzXJTho4MSTehrjZSvvrv-Wj-tYrPw9m6wCC41dMToqV5By6_8POP-OMk=2FEAC17D").SecurePassword]</InArgument>
       </Assign.Value>
     </Assign>
     <Sequence DisplayName="Jira" sap:VirtualizedContainerService.HintSize="546,543.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -124,7 +127,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uja:CreateIssue Components="{x:Null}" ContinueOnError="{x:Null}" CustomFields="{x:Null}" Issue="{x:Null}" ParentIssueKey="{x:Null}" DisplayName="Create Issue" sap:VirtualizedContainerService.HintSize="388,234.66666666666666" sap2010:WorkflowViewState.IdRef="CreateIssue_1" IssueDescription="Test Issue Description" IssueSummary="Test Issue Summary" IssueType="Task" ProjectKey="UIP">
+              <uja:CreateIssue Components="{x:Null}" ContinueOnError="{x:Null}" CustomFields="{x:Null}" Issue="{x:Null}" ParentIssueKey="{x:Null}" DisplayName="Create Issue" sap:VirtualizedContainerService.HintSize="388,234.66666666666666" sap2010:WorkflowViewState.IdRef="CreateIssue_1" IssueDescription="Test Issue Description" IssueSummary="[&quot;Test Issue Summary&quot; + TimeString]" IssueType="Task" ProjectKey="UIP">
                 <uja:CreateIssue.AdditionalFields>
                   <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                 </uja:CreateIssue.AdditionalFields>
