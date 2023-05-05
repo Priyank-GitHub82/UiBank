@@ -48,6 +48,14 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "SyntheticTestDataGeneration.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "484efa96-689f-43ee-a0a6-33644cebeb5e",
+        "dataVariationFilePath": ".variations\\LoanApplicationTestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase_UiBank_TestDataDriven.xaml"
       }
     ],
     "modernBehavior": true
