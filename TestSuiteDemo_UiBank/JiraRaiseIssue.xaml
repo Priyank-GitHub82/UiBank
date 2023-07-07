@@ -106,7 +106,7 @@
         <OutArgument x:TypeArguments="ss:SecureString">[TokenSecureString]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="ss:SecureString">[new system.net.NetworkCredential("", "ATATT3xFfGF0NepBxIzhpfeN2YHZQedLUBYR4iMQIgMxpB7Hgnf_sykpmReTpeqdruHMyjV8ccIC3rTw1BzDersLoMK7GE7H9Y9tVOdB-KRhwaU12Lfy0X3Esb-I3yUzXJTho4MSTehrjZSvvrv-Wj-tYrPw9m6wCC41dMToqV5By6_8POP-OMk=2FEAC17D").SecurePassword]</InArgument>
+        <InArgument x:TypeArguments="ss:SecureString">[new system.net.NetworkCredential("", "ATATT3xFfGF0K3uqKT1jLEfmj-46xDALjUH_pVjaiIqek9PwfuHqZ0M4vzAqeeEUdkr-VAkrDHaBDJ3Hdha4b-hVqXEzkxCdSVsVJx8VAT7YAvLtqDnjyVl5lOGmm6E3hHkyvz06gHFETdW1B0T_ROgfI2-VSOAbkfeYw6EG_HOfHcz66ZRFS3s=35C2ABCD").SecurePassword]</InArgument>
       </Assign.Value>
     </Assign>
     <Sequence DisplayName="Jira" sap:VirtualizedContainerService.HintSize="546,543.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">

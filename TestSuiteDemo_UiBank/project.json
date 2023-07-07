@@ -9,10 +9,17 @@
     "UiPath.UIAutomation.Activities": "[23.4.4]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "TestSuiteDemo_UiBank",
+      "uniqueReference": "9NCy8foKfhh0xXdD83cuno7tlhtTv5DffVQfRRcC8E0="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.0.0",
-  "projectVersion": "1.0.136968238",
+  "projectVersion": "1.0.136975081",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -56,6 +63,14 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase_UiBank_TestDataDriven.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dfa4566c-1ea5-4294-894f-325a29e9c547",
+        "dataVariationFilePath": ".variations\\LoanApplicationTestData_Sheet1_1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
       }
     ],
     "modernBehavior": true

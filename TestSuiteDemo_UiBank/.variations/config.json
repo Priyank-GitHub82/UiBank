@@ -3,6 +3,10 @@
     {
       "filePath": ".variations\\LoanApplicationTestData_Sheet1.json",
       "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\LoanApplicationTestData_Sheet1_1.json",
+      "dataVariationType": "File"
     }
   ]
 }
